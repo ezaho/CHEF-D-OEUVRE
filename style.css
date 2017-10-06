@@ -2,9 +2,53 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+#cookie{
+	color: white;
+	background-color: blue; 
+}
 .main{
 	width :800px;
 	margin: 0 auto;
 	border: 2px solid blue;
 }
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+ #une{
+ 	width:500px;
+ 	margin: 0 auto;
+ 	border: 1px solid black;
+ 	 }
+ aside{
+ 	 	width: 200px; 	 	
+ 	 	border:1px solid black;
+ 	 }
+ #deux{
+ 	width: 500px;
+ 	margin: 0 auto;
+ 	border: 1px solid black;
+ }
+ footer .footercontainer {
+	background-color:blue;
+}
+.fa{
+	background-color: white;
+	line-height: 25px;
+	width: 25px;
+	margin-right: 7.5px;
+	color: #252525;
+	text-align: center;
+	border-radius: 12.5px;}
+	.tweet{
+	background-color: #4C84F9;
+}
+.fb{
+	background-color: #4F4B95;
+}
+footer {
+	color:white;
+	font-size: 20px;
+	padding:0 4px;
+}
+ 
