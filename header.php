@@ -46,8 +46,7 @@
 											<p>Le site d'information pour bien acheter</p>
 											</div>
       </div>
-    </div> 
-       
+    </div>        
 			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 								<span class="glyphicon glyphicon-control glyphicon-chevron-left"></span>
 										<span class="sr-only">Previous</span>
@@ -55,25 +54,19 @@
 									<a class="right carousel-control" href="#myCarousel" data-slide="next">
 										<span class="glyphicon glyphicon-control glyphicon-chevron-right"></span>
 										<span class="sr-only">Next</span>
-									</a>
-									
-								</div>
-
-								
-								
+									</a>									
+								</div>						
  	<nav class="navbar navbar-inverse">
   <div class="container">    
     <ul class="nav navbar-nav">
-      <li ><a class="w3-bar-item.w3-button" href="index.php?page=home">Accueil</a></li>
+      <li><a class="w3-bar-item.w3-button" href="index.php?page=home">Accueil</a></li>
       <li><a class="w3-bar-item.w3-button" href="index.php?page=malin">Achetez malin </a></li>
       <li><a class="w3-bar-item.w3-button" href="index.php?page=responsable">Achetez responsable</a></li>
       <li><a class="w3-bar-item.w3-button" href="index.php?page=inscription">Inscription</a></li>
-      <li><a class="w3-bar-item.w3-button" href="index.php?page=forum">Forum</a></li>
-     
+      <li><a class="w3-bar-item.w3-button" href="index.php?page=forum">Forum</a></li>     
     </ul>
   </div>
 </nav>
-
 <div id="cookie"><span class="cookie-span">  En poursuivant votre navigation sur notre site vous acceptez l'utilisation des cookies pour vous proposer des contenues et services adapter à vos centres d'intérêts ainsi qu'une navigation plus agréable.   </span><a id="cookie-dismiss" href="#">Ok</a></div>
  <br>
  </header>

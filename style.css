@@ -7,29 +7,46 @@ body {
 	background-color: blue; 
 }
 .main{
-	width :800px;
+	width :1000px;
 	margin: 0 auto;
 	border: 2px solid blue;
 }
 .container{
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 }
+.carousel-inner > .item > img  {
+position: relative;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 300px;
+}
  #une{
+ 	text-align: center;
  	width:500px;
  	margin: 0 auto;
  	border: 1px solid black;
+ 	border-radius: 10px;
+   box-shadow: 1px 1px 8px #555;
  	 }
  aside{
+ 	text-align: center;
  	 	width: 200px; 	 	
  	 	border:1px solid black;
+ 	 	border-radius: 10px;
+   box-shadow: 1px 1px 8px #555;
  	 }
  #deux{
+ 	text-align: center;
  	width: 500px;
  	margin: 0 auto;
  	border: 1px solid black;
+ 	border-radius: 10px;
+   box-shadow: 1px 1px 8px #555;
  }
  footer .footercontainer {
+
 	background-color:blue;
 }
 .fa{
@@ -49,6 +66,16 @@ body {
 footer {
 	color:white;
 	font-size: 20px;
-	padding:0 4px;
+	padding:0 4px;	
+	margin: 0 auto;
 }
- 
+ .navbar{
+ 	background-color:;
+ }
+#inscription{
+	width: 500px;
+ 	margin: 0 auto;
+ 	border: 1px solid black;
+ 	border-radius: 10px;
+   box-shadow: 1px 1px 8px #555;
+ }
