@@ -1,5 +1,5 @@
  <?php  
-
+session_start();
  ?>
  <!DOCTYPE html>
 <html>
@@ -10,6 +10,8 @@
 	<meta name="keyword" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">  
    <link  href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+          font-awesome.min.css">  
    <link href="style.css" type="text/css" rel="stylesheet">
    <script src="jquery.js"></script>
    <script src="script.js"></script>
@@ -19,14 +21,14 @@
  <header>
 	<div id="myCarousel" class="carousel slide" data-ride="carousel" >   
     <div class="carousel-inner">
-      <div class="item active">
+      <div class="item ">
         <img src="panorama1.jpg" class="img-responsive" height="25%" alt="panorama1" style="width:100%;">
         <div class="carousel-caption">
 											<h1>Consommons Autrement</h1>
 											<p>Le site d'information pour bien acheter </p>
 											</div>
       </div>
-      <div class="item">
+      <div class="item active">
         <img src="panorama4.jpg" class="img-responsive" height="25%" alt="panorama4" style="width:100%;">
         <div class="carousel-caption">
 											<h1>Consommons Autrement</h1>
@@ -62,8 +64,17 @@
       <li><a class="w3-bar-item.w3-button" href="index.php?page=home">Accueil</a></li>
       <li><a class="w3-bar-item.w3-button" href="index.php?page=malin">Achetez malin </a></li>
       <li><a class="w3-bar-item.w3-button" href="index.php?page=responsable">Achetez responsable</a></li>
-      <li><a class="w3-bar-item.w3-button" href="index.php?page=inscription">Inscription</a></li>
-      <li><a class="w3-bar-item.w3-button" href="index.php?page=forum">Forum</a></li>     
+      <?php 
+         if (!isset ($_SESSION['id_membre'])) {
+           echo '
+         
+             <li><a class="w3-bar-item.w3-button" href="index.php?page=inscription">Inscription</a></li>
+            <li><a class="w3-bar-item.w3-button" href="index.php?page=forum">Forum</a></li> 
+              <li><a class="w3-bar-item.w3-button" href="index.php?page=login">login</a></li>  ';
+         }else{
+             echo '<li><a class="w3-bar-item.w3-button" href="index.php?page=logout">logout</a></li>';
+         }
+         ?>
     </ul>
   </div>
 </nav>

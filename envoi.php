@@ -4,11 +4,26 @@
 require 'connection.php';
 if (!empty($_POST['pseudo'])&&!empty($_POST['message']))
  {
-	$pseudo = mysql_real_escape_string(htmlspecialchars(trim($_POST['pseudo'])))
-	$message = mysql_real_escape_string(htmlspecialchars(trim($_POST['message'])))
-	$dbh->exec("INSERT INTO messages(id,pseudo,message)VALUES ('','$pseudo','$message')")
-	echo "<span class='success'>vos donnees ont ete envoyees</span>";
-}
+	$pseudo = htmlspecialchars($_POST['pseudo']);
+	$message = htmlspecialchars($_POST['message']);
+	$requser = $dbh->prepare("INSERT INTO messages(pseudo,message)VALUES (:pseudo ,:message)");
+	   $requser->bindValue(':pseudo',$pseudo);
+		$requser->bindValue(':message',$message);
+			$requser->execute();
+		 	$userexist = $requser->rowcount();
+		 	if ($userexist == 1) {
+				$userinfo = $requser -> fetchAll;
+			       $_SESSION['id_membre'] =$userinfo['id'];			      
+			       $_SESSION['pseudo'] =$userinfo['pseudo'];
+			       $_SESSION['message'] = $userinfo['message'];
+			      			        			      
+			        header('location:index.php?page=forum') . $_SESSION['id']; 
+			   }
+			   echo "<span class='success'>vos donnees ont ete envoyees</span>";
+            }
+		   // else{
+		    // echo "mauvais mail ou mot de passe incorrect";
+		     	// }	
 else{
 	echo "<span class='error'>Veuillez completer tous les champs</span>";
 }

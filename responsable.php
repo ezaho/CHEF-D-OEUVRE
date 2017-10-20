@@ -3,8 +3,8 @@
  	  <div class="row">
  	     <div class="col-md-4">
  	        <aside>
-                <h3>À propos de l'achat responsable</h3>
-                <p>C'est moi, Zozor ! Je suis né un 23 novembre 2005.</p>
+                <h3>À propos de:<br>"Achetez responsable"</h3>
+                <p>Ici nous voulons reponsabiliser tout un chacun d'avoir une pensée pour les producteurs et pour la planète.</p>
             </aside>
             </div>
        	<div class="col-md-8">

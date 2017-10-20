@@ -2,22 +2,26 @@
  <footer>
   	<div class="footercontainer container-fluid">
  	   <div class="row">
- 	   	<ul>
- 	       <li><div class="col-md-4 text-right">
- 	   		<a href="#" class="tweet"><p>Twitter</p><i class="fa fa-twitter" aria-hidden="true"></i></a>
-				<a href="#" class="fb"><p>Facebook</p><i class="fa fa-facebook" aria-hidden="true"></i></a>
- 	   	     </div></li>
- 	   	   <li><div class="col-md-4"><p> Publication Consommons Autrement &copy; Tous droits reservés 2017 </p></div></li> 	   	
-  			   <li>   <div class="col-md-4 text-right">								
-								<a href="#">FAQ</a>							
-								<a href="#">Nous contacter</a>
-			      </div></li>
-			</ul>
+ 	   	<div  class="col-md-4 text-center">
+ 	   		<a   name= "fb_share" type= "button" style="color:blue" >Facebook</a>
+                     <script src= "http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script>
+                     <br> 	   					
+				<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                     </script>  	   		         
+	     </div>
+ 	   	 <div class="col-md-4 text-center"><p> Publication Consommons Autrement &copy; Tous droits reservés 2017 </p></div>  <div class="col-md-4 text-center">								
+								<ul>
+									<li><a href="#">FAQ</a></li>							
+					  		 	   <li><a href="#">CONTACT</a></li>
+								</ul>
+			      </div>
  	  	</div> 
  	  	 </div>
      </div>	 
  	</footer>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script src="main.js"></script>
 </body>
  </html>

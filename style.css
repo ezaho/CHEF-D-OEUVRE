@@ -24,7 +24,7 @@ height: 300px;
 }
  #une{
  	text-align: center;
- 	width:500px;
+ 	width:600px;
  	margin: 0 auto;
  	border: 1px solid black;
  	border-radius: 10px;
@@ -32,14 +32,14 @@ height: 300px;
  	 }
  aside{
  	text-align: center;
- 	 	width: 200px; 	 	
+ 	 	width: 320px; 	 	
  	 	border:1px solid black;
  	 	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  	 }
  #deux{
  	text-align: center;
- 	width: 500px;
+ 	width: 600px;
  	margin: 0 auto;
  	border: 1px solid black;
  	border-radius: 10px;
@@ -47,7 +47,7 @@ height: 300px;
  }
  footer .footercontainer {
 
-	background-color:blue;
+	background-color: #666699;
 }
 .fa{
 	background-color: white;
@@ -70,6 +70,7 @@ footer {
 	margin: 0 auto;
 }
  .navbar{
+ 	color:white;
  	background-color:;
  }
 #inscription{
@@ -79,3 +80,29 @@ footer {
  	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  }
+ #login{
+	width: 500px;
+ 	margin: 0 auto;
+ 	border: 1px solid black;
+ 	border-radius: 10px;
+   box-shadow: 1px 1px 8px #555;
+ } 
+ .talk-bubble {
+	margin: 40px;  
+  position: relative;
+	width: 100px;
+	border:0px solid black;
+ 	 	border-radius: 10px;
+	height: 40px;
+	background-color:#00ffcc;
+}
+.talktext {
+	display: inline-block;
+	margin: 40px;  
+  position: relative;
+	width: 320px; 	 	
+ 	 	border:0px solid black;
+ 	 	border-radius: 10px;
+	height: auto;
+	background-color: #66ff99;
+}

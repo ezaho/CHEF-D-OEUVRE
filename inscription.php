@@ -21,11 +21,11 @@ if (isset($_POST["formconnect"])) {
 			        header('location:index.php?page=forum') . $_SESSION['id']; 
 			   }
 		   else{
-		     	$message ="mauvais mail ou mot de passe incorrect";
+		     	echo "<div class ='return'>mauvais mail ou mot de passe incorrect</div>";
 		     	}
 	 }
 	else {
-		 $message = "tous les champs doivent être completés";
+		echo "<div class ='return'>veuillez completer tous les champs</div class>";
 	   }
 }
   ?>
@@ -34,7 +34,9 @@ if (isset($_POST["formconnect"])) {
 <div align="center">
     <h3>Enregistrez-vous pour être membre!</h3>
     </br>
-    <form method="POST" action="inscription.php">
+   
+    <form method="POST" action="inscription.php"> 
+    	  <div class="return"></div>
        <input type="pseudo" name="pseudo" placeholder="pseudo"/>  <br> 
        <input type="email" name="mail" placeholder="mail"/>  <br>
        <input type="password" name="mdp" placeholder="password"/>  <br>
@@ -45,5 +47,5 @@ if (isset($_POST["formconnect"])) {
     	echo "<font color='red'>" . $message="" ."</font color>";
       }?>
     </div>
-    </div>   
+    </div>  <br> 
 </container>
