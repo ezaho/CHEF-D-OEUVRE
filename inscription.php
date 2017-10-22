@@ -18,7 +18,7 @@ if (isset($_POST["formconnect"])) {
 			       $_SESSION['pseudo'] =$userinfo['pseudo'];
 			       $_SESSION['mail'] = $userinfo['mail'];
 			       $_SESSION['mdp'] = $userinfo['mdp'];			        			      
-			        header('location:index.php?page=forum') . $_SESSION['id']; 
+			        header('location:index.php?page=login') . $_SESSION['id']; 
 			   }
 		   else{
 		     	echo "<div class ='return'>mauvais mail ou mot de passe incorrect</div>";

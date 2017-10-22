@@ -29,20 +29,26 @@ session_start();
 											</div>
       </div>
       <div class="item active">
-        <img src="panorama4.jpg" class="img-responsive" height="25%" alt="panorama4" style="width:100%;">
+        <img src="vignoble.jpg" class="img-responsive" height="25%" alt="vignoble" style="width:100%;">
         <div class="carousel-caption">
 											<h1>Consommons Autrement</h1>
 											<p>Le site d'information pour bien acheter </p>
 											</div>
       </div>    
       <div class="item">
-        <img src="panorama3.jpeg" class="img-responsive" height="25%" alt="panorama3" style="width:100%;"><div class="carousel-caption">
+        <img src="lamer.jpeg" class="img-responsive" height="25%" alt="lamer.jpeg" style="width:100%;"><div class="carousel-caption">
 											<h1>Consommons Autrement</h1>
 											<p>Le site d'information pour bien acheter</p>
 											</div>
       </div>
       <div class="item">
-        <img src="panorama5.jpg" class="img-responsive" height="25%" alt="panorama5" style="width:100%;">
+        <img src="poissons.jpg" class="img-responsive" height="25%" alt="poissons.jpg" style="width:100%;"><div class="carousel-caption">
+                      <h1>Consommons Autrement</h1>
+                      <p>Le site d'information pour bien acheter</p>
+                      </div>
+      </div>
+      <div class="item">
+        <img src="marchelegumes.jpeg" class="img-responsive" height="25%" alt="marchélegumes" style="width:100%;">
         <div class="carousel-caption">
 											<h1>Consommons Autrement</h1>
 											<p>Le site d'information pour bien acheter</p>

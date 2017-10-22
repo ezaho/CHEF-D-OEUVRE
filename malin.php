@@ -14,15 +14,15 @@
 		     <section id="une">		    
               <article>          
                 <h3>Achetez malin</h3>
-                <p>"Consommez ,consommez" disent-ils "c'est bon pour l'économie".</p>
-                <p>Oui mais, à quel prix?</p>
-                <p>Ceci nous amène tout le temps à faire un choix.</p>
-                <p>Un seul mot-clé:comparer les prix.Et ça nous savons tous le faire.</p>
-                <p>Et mieux il y a quelqu'un qui fait ça pour nous </p>
-                <p>Tout le monde connait:
-                     <ul>ça vaut le détours:classez vos listes de course par liste de magasin.<br>
-                         Tels achats ,tel magasin.<br>
-                         Et faites jouer la concurrence ;c'est votre porte-feuille qui est en jeu!
+                <b>"Consommez ,consommez"</b> disent-ils "c'est bon pour l'économie".</br>
+                Oui mais, à quel prix?</br>
+                Ceci nous amène tout le temps à faire un choix.</br>
+                Un seul mot-clé:<b>comparer les prix.</b></br>Et ça nous savons tous le faire.
+                Et mieux il y a quelqu'un qui fait ça pour nous </br>
+                Tout le monde connait l'astuce:<b>Tels achats ,tel magasin.</b><br>
+               ça vaut le détours:classez vos listes de course par liste de magasin.<br>                    
+               Et faites jouer la concurrence ;c'est votre porte-feuille qui est en jeu!
+                     <ul>
                        <li>
                          un magasin qui "rembourse la différence si vous trouver moins cher ailleurs."
                        </li>

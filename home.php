@@ -22,8 +22,8 @@
                 comme l'intérêt des producteurs, jusqu'à un achat bon pour notre planète.</br>
                 Ceci nous amène à nos deux rubriques :
                   <ul>
-                    <li><a href="#">Achetez malin</a></li>
-                    <li><a href="#">Achetez responsable</a></li>
+                    <li><a href="index.php?page=malin">Achetez malin</a></li>
+                    <li><a href="index.php?page=responsable">Achetez responsable</a></li>
                   </ul>               
               </article>
 	      	</section>

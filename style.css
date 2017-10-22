@@ -4,7 +4,7 @@ body {
 }
 #cookie{
 	color: white;
-	background-color: blue; 
+	background-color:#666699; 
 }
 .main{
 	width :1000px;
@@ -24,24 +24,27 @@ height: 300px;
 }
  #une{
  	text-align: center;
+ 	vertical-align: 
  	width:600px;
  	margin: 0 auto;
- 	border: 1px solid black;
+ 	border: 1px solid #666699;
  	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  	 }
  aside{
  	text-align: center;
+ 	vertical-align: 
  	 	width: 320px; 	 	
- 	 	border:1px solid black;
+ 	 	border:1px solid #666699;
  	 	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  	 }
  #deux{
  	text-align: center;
+ 	vertical-align: 
  	width: 600px;
  	margin: 0 auto;
- 	border: 1px solid black;
+ 	border: 1px solid #666699;
  	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  }
@@ -83,7 +86,7 @@ footer {
  #login{
 	width: 500px;
  	margin: 0 auto;
- 	border: 1px solid black;
+ 	border: 1px solid #666699;
  	border-radius: 10px;
    box-shadow: 1px 1px 8px #555;
  } 
